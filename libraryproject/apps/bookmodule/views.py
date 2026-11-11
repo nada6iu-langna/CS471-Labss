@@ -17,3 +17,14 @@ def list_books(request):
     return render(request, 'bookmodule/list_books.html')
 def aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+def links(request):
+    return render(request, 'bookmodule/links.html')
+# Lab 5 - Task 2
+def formatting(request):
+    return render(request, 'bookmodule/formatting.html')
+# Lab 5 - Task 3
+def listing(request):
+    return render(request, 'bookmodule/listing.html')
+# Lab 5 - Task 4
+def tables(request):
+    return render(request, 'bookmodule/tables.html')

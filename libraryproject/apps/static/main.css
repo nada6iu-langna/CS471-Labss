@@ -1,0 +1,35 @@
+/* Lab 5 - Task 4: Tables */
+
+.fruit-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.fruit-table caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.fruit-table th,
+.fruit-table td {
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.camel-table {
+    width: 75%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.camel-table th,
+.camel-table td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.camel-table img {
+    display: block;
+    margin: auto;
+}

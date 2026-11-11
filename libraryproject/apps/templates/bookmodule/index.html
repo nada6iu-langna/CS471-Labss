@@ -1,1 +1,13 @@
-<h1>Hello from {{ name }}!</h1>
+{% extends "layouts/base.html" %}
+
+{% block title %}Home - Library{% endblock title %}
+
+{% block content %}
+
+<h1 style="color: blue;">Welcome to our Library</h1>
+
+<p style="background-color: black; color: white;">
+    This is our library website.
+</p>
+
+{% endblock content %}

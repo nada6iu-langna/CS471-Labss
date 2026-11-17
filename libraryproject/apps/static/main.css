@@ -1,3 +1,41 @@
+/* Lab 5 - Task 1: Links */
+
+#links-container {
+    text-align: center;
+}
+
+.link-box {
+    display: block;
+    padding: 15px;
+}
+
+#link1 {
+    background-color: lightgreen;
+}
+
+#link2 {
+    background-color: #555555;
+}
+
+#link3 {
+    background-color: black;
+}
+
+.link-box a:link {
+    color: yellow;
+}
+
+.link-box a:visited {
+    color: orange;
+}
+
+.link-box a:hover {
+    color: red;
+}
+
+.link-box a:active {
+    color: blue;
+}
 /* Lab 5 - Task 4: Tables */
 
 .fruit-table {

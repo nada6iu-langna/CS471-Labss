@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+# Lab 7 - Task 1
+class Book(models.Model):
+    title = models.CharField(max_length=50)
+    author = models.CharField(max_length=50)
+    price = models.FloatField(default=0.0)
+    edition = models.SmallIntegerField(default=1)
